@@ -181,6 +181,28 @@ const Resume = () => {
         >
           2019
         </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Fullstack Developer / Contractor
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Sacra (2019 - 2022)
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+            repudiandae, rerum necessitatibus nisi mollitia.
+          </Typography>
+        </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
@@ -193,10 +215,60 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Head of Product and Engineering
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Native AI (2018 - 2022)
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+            repudiandae, rerum necessitatibus nisi mollitia.
+          </Typography>
+        </Box>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Fullstack Developer
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Opensky (2018)
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+            repudiandae, rerum necessitatibus nisi mollitia.
+          </Typography>
+        </Box>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2016
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Data Engineer
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            GoSpotCheck (2016 - 2017)
           </Typography>
           <Typography
             variant="subtitle1"
@@ -221,38 +293,10 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Fullstack Javascript
+            Data Analyst
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2017
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Django & React
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Dish Network (2015 - 2016)
           </Typography>
           <Typography
             variant="subtitle1"
