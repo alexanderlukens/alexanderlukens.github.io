@@ -47,7 +47,7 @@ const Header = () => {
         <Typed
           strings={[
             "Web3 Developer",
-            "Backend Developer",
+            "Backend Engineer",
             "Fullstack Developer",
           ]}
           backDelay={1000}
