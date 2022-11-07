@@ -7,13 +7,13 @@ import LinkedIn from "@material-ui/icons/LinkedIn";
 
 const useStyles = makeStyles({
   bottomNavContainer: {
-    background: "#222",
+    background: "#022B3A",
   },
   root: {
     "& .MuiSvgIcon-root": {
-      fill: "tan",
+      fill: "#FFFFFF",
       "&:hover": {
-        fill: "tomato",
+        fill: "#BFDBF7",
         fontSize: "1.8rem",
       },
     },
