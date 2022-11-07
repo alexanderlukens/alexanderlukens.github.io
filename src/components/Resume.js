@@ -5,7 +5,8 @@ import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "#d5dffe1A",
+    minHeight: "100vh",
   },
   timeLine: {
     position: "relative",

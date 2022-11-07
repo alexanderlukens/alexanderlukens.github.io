@@ -13,14 +13,11 @@ import Typography from "@material-ui/core/Typography";
 import project1 from "../images/html-css-javascript-lg.jpg";
 import project2 from "../images/html-css-javascript.jpg";
 import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
-import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
-    height: "100%",
+    background: "#d5dffe80",
+    minHeight: "100vh",
   },
   cardContainer: {
     maxWidth: 345,
@@ -30,12 +27,14 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
+    name: "Solana NFT",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
     consequatur magni quod nesciunt necessitatibus molestiae non
     eligendi, magnam est aliquam recusandae? Magnam soluta minus
     iste alias sunt veritatis nisi dolores!`,
     image: project1,
+    demoUrl: "https://alexanderlukens.github.io/resume-nft/",
+    githubUrl: "https://github.com/alexanderlukens/resume-nft"
   },
   {
     name: "Project 2",
@@ -53,34 +52,15 @@ const projects = [
     iste alias sunt veritatis nisi dolores!`,
     image: project3,
   },
-  {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project4,
-  },
-  {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project5,
-  },
-  {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project6,
-  },
 ];
 
 const Portfolio = () => {
   const classes = useStyles();
+
+  const navigate = (url) => {
+    window.open(url)
+  }
+
   return (
     <Box component="div" className={classes.mainContainer}>
       <Grid container justify="center">
@@ -105,12 +85,16 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
+                {project.demoUrl && 
+                  <Button size="small" color="primary" onClick={() => navigate(project.demoUrl)}>
+                    Live Demo
+                  </Button>
+                }
+                {project.githubUrl && 
+                  <Button size="small" color="primary" onClick={() => navigate(project.githubUrl)}>
+                    Github Repo
+                  </Button>
+                }
               </CardActions>
             </Card>
           </Grid>
