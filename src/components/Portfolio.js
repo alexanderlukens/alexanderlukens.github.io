@@ -14,7 +14,7 @@ import solana from "../images/solana.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#d5dffe80",
+    background: "#d5dffe1A",
     minHeight: "100vh",
   },
   cardContainer: {

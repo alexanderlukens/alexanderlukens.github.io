@@ -35,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
   timeLineItem: {
     padding: "1rem",
+    backgroundColor: "#022B3A",
     borderBottom: "2px solid tan",
     position: "relative",
     margin: "1rem 3rem 1rem 1rem",
@@ -49,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
       right: "-0.625rem",
       top: "calc(50% - 5px)",
       borderStyle: "solid",
-      borderColor: "tomato tomato transparent transparent",
+      borderColor: "#bfdbf7 #bfdbf7 transparent transparent",
       borderWidth: "0.625rem",
       transform: "rotate(45deg)",
     },
@@ -64,7 +65,7 @@ const useStyles = makeStyles((theme) => ({
       "&:nth-of-type(2n):before": {
         right: "auto",
         left: "-0.625rem",
-        borderColor: "transparent transparent tomato tomato",
+        borderColor: "transparent transparent #bfdbf7 #bfdbf7",
       },
     },
   },
@@ -74,7 +75,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
     color: "#fff",
-    background: "tomato",
+    background: "#022B3A",
     lineHeight: 1,
     padding: "0.5rem 1rem",
     "&:before": {
@@ -93,17 +94,17 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    color: "tomato",
+    color: "#fff",
     padding: "3rem 0",
     textTransform: "uppercase",
   },
   subHeading: {
-    color: "#fff",
+    color: "#E1E5F2",
     padding: 0,
     textTransform: "uppercase",
   },
   body1: {
-    color: "tomato",
+    color: "#bfdbf7",
   },
   subtitle1: {
     color: "tan",
@@ -115,14 +116,14 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        Resume
       </Typography>
       <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2022
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
