@@ -131,10 +131,10 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            Web3 Developer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Yaku (2022)
           </Typography>
           <Typography
             variant="subtitle1"
@@ -151,7 +151,41 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          2020
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Founder
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Chowtown (2020 - 2022)
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+            repudiandae, rerum necessitatibus nisi mollitia.
+          </Typography>
+        </Box>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2019
+        </Typography>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2018
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
