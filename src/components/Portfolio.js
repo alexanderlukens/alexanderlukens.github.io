@@ -26,10 +26,8 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: "Solana NFT",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
+    description: `A fullstack NFT minting application using Metaplex's NFT protocol.`,
+    stack: ['Anchor (Rust)', 'Typescript'],
     image: solana,
     demoUrl: "https://alexanderlukens.github.io/resume-nft/",
     githubUrl: "https://github.com/alexanderlukens/resume-nft"
@@ -61,9 +59,17 @@ const Portfolio = () => {
                   <Typography variant="h5" gutterBottom>
                     {project.name}
                   </Typography>
-                  <Typography variant="body2" color="textSecondary">
+                  <Typography variant="body1" color="textSecondary" gutterBottom>
                     {project.description}
                   </Typography>
+                  <Typography variant="body2" color="textSecondary" component='div'>
+                    Stack
+                  </Typography>
+                  {project.stack.map(s => (
+                    <Typography variant="subtitle" color="textSecondary" component='div'>
+                      &#x2022; {s}
+                    </Typography>
+                  ))}
                 </CardContent>
               </CardActionArea>
               <CardActions>
