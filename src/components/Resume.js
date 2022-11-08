@@ -142,10 +142,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Was responsible for adding new features to <Link color="inherit" href="https://www.yaku.ai/home" target="_blank" underline="always">Yaku's</Link> community dashboard allowing their NFT holders to have a hub for all things crypto on the Solana network. Features included staking of Yaku NFTs, wallet to wallet chat, and an NFT sniper tool for purchasing a Solana NFT at a given price automatically. Written in React and Rust.
           </Typography>
         </Box>
         <Typography
@@ -170,7 +167,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Created a plug and play web application for restaurants to produce and manage high quality digital menus (due to COVID) with branding, images, and a mobile friendly design. The application had a staff backend for managing the menu, a webpage for customers to land on after scanning a QR code (android), and an IOS app that launched via an <Link color="inherit" href="https://developer.apple.com/app-clips/" target="_blank" underline="always">app clip</Link>.
+            Created a plug and play web application for restaurants to produce and manage high quality digital menus (due to COVID) with branding, images, and a mobile friendly design. The application had a staff backend for managing the menu, a webpage for customers to land on after scanning a QR code, and an IOS app that launched via an <Link color="inherit" href="https://developer.apple.com/app-clips/" target="_blank" underline="always">app clip</Link> for a more native experience. Tech stack included Django (python), React, React Native, Docker, and AWS.
           </Typography>
         </Box>
         <Typography
@@ -195,7 +192,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Was brought on as a contractor to bring 
+            Worked with the founder of <Link color="inherit" href="https://apps.apple.com/id/app/sacra-app/id1491367581" target="_blank" underline="always">Sacra</Link> to build a mobile app focused on facilitating her communities' spiritual journey via guided rituals (audio) and content from experts in the field, among other features. Written in Django (python), React Native, Docker, and AWS. Also facilitated the handoff of the development to a dev shop after the MVP was complete by creating relevant documentation and providing training. 
           </Typography>
         </Box>
         <Typography
@@ -220,7 +217,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Joined as the founding engineer of Native AI. Utilized Django (python), Flask (python), React, Aws, Docker, and CI pipelines to build out two seperate applications one serving the indoor farming space (pre company pivot) with managing their operations and the second serving small CPG companies gathering consumer product insights. Also functioned as the lead developer, managing 5 junior devs across various areas of the platform. 
+            Joined as the founding engineer of <Link color="inherit" href="https://www.gonative.ai/" target="_blank" underline="always">Native AI</Link>. Utilized Django (python), React, Aws, Docker, and CI pipelines to build out two seperate applications one serving the indoor farming space (pre company pivot) with managing their operations and the second serving small CPG companies with gathering consumer feedback by scrapping data off the internet and analyzing that data with Natural Language Processing and Machine Learning pipelines. Also functioned as the lead developer, managing 5 junior devs across various areas of the platform. 
           </Typography>
         </Box>
         <Box component="div" className={classes.timeLineItem}>
@@ -239,7 +236,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Inherited a legacy so
+            Was responsible for maintaining, optimizing, and adding new features to a legacy software application for small ski resorts to digitize their online sales of tickets, ski lessons, and gear (think shopify for ski resorts) written in Flask (python) and hosted on Google Cloud Platform.
           </Typography>
         </Box>
         <Typography
@@ -264,7 +261,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Leveraged Ruby, Python and SQL for one of GoSpotCheck's largest clients in order to facilitate new use cases with GoSpotCheck's product. Was responsible for maintaining a stand alone database which provided our client with custom insights into their business operations by querying millions of data points.
+            Leveraged Ruby, Python and SQL for one of GoSpotCheck's largest clients in order to facilitate new use cases of GoSpotCheck's product. Was responsible for maintaining a stand alone database which provided our client with custom insights into their business operations by querying millions of data points.
           </Typography>
         </Box>
         <Typography
