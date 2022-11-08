@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
+import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -169,10 +170,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Created a plug and play web application for restaurants to produce and manage high quality digital menus (due to COVID) with branding, images, and a mobile friendly design. The application had a staff backend for managing the menu, a webpage for customers to land on after scanning a QR code (android), and an IOS app that launched via an <Link color="inherit" href="https://developer.apple.com/app-clips/" target="_blank" underline="always">app clip</Link>.
           </Typography>
         </Box>
         <Typography
@@ -197,10 +195,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Was brought on as a contractor to bring 
           </Typography>
         </Box>
         <Typography
@@ -225,10 +220,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Joined as the founding engineer of Native AI. Utilized Django (python), Flask (python), React, Aws, Docker, and CI pipelines to build out two seperate applications one serving the indoor farming space (pre company pivot) with managing their operations and the second serving small CPG companies gathering consumer product insights. Also functioned as the lead developer, managing 5 junior devs across various areas of the platform. 
           </Typography>
         </Box>
         <Box component="div" className={classes.timeLineItem}>
@@ -247,10 +239,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Inherited a legacy so
           </Typography>
         </Box>
         <Typography
@@ -275,10 +264,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Leveraged Ruby, Python and SQL for one of GoSpotCheck's largest clients in order to facilitate new use cases with GoSpotCheck's product. Was responsible for maintaining a stand alone database which provided our client with custom insights into their business operations by querying millions of data points.
           </Typography>
         </Box>
         <Typography
@@ -303,10 +289,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Managed ETL pipelines and created dashboards on Tableau for the Dish Network Sales Training department. Was responsible for generating queries that would allow upper management to drill into the departments 5 million dollar expenditure budget.
           </Typography>
         </Box>
       </Box>
